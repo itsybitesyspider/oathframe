@@ -5,16 +5,15 @@
   "bin": "./src/main",
   "scripts": {
     "test": "eslint ./src/** ./spec/** && jasmine",
-    "clean": "rimraf node_modules"
+    "clean": "rm -rf ./node_modules ./coverage"
   },
   "author": "Christopher Lane Hinson <clanehin@gmail.com>",
   "license": "AGPL-3.0",
   "devDependencies": {
-    "eslint": "^2.13.1",
-    "rimraf": "^2.5.2"
+    "eslint": "^2.13.1"
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "oathframe-lib": "git+https://github.com/clanehin/oathframe-lib.git#v0.0.3"
+    "oathframe-lib": "git+https://github.com/clanehin/oathframe-lib.git#v0.0.4"
   }
 }
