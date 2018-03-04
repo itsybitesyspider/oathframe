@@ -4,7 +4,7 @@
   "description": "Build, edit, render, and manipulate large multi-part markdown documents.",
   "bin": "./src/main",
   "scripts": {
-    "test": "eslint ./src/** ./spec/** && jasmine",
+    "test": "eslint ./src/** ./spec/**",
     "clean": "rm -rf ./node_modules ./coverage"
   },
   "author": "Christopher Lane Hinson <clanehin@gmail.com>",
