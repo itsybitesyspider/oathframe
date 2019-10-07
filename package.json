@@ -2,7 +2,7 @@
   "name": "oathframe",
   "version": "0.0.2",
   "description": "Build, edit, render, and manipulate large multi-part markdown documents.",
-  "bin": "./src/main",
+  "bin": "./src/main.js",
   "scripts": {
     "test": "eslint ./src/** ./spec/**",
     "clean": "rm -rf ./node_modules ./coverage"
