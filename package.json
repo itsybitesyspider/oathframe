@@ -13,7 +13,7 @@
     "eslint": "^2.13.1"
   },
   "dependencies": {
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "oathframe-lib": "git+https://github.com/clanehin/oathframe-lib.git#v0.0.5"
   }
 }
